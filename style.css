@@ -20,6 +20,18 @@ html
     font-size: 16px;
 }
 
+.hidden
+{
+ border: 0; 
+ clip: rect(0 0 0 0);
+  height: 1px; 
+  margin: -1px;
+   overflow: hidden; 
+   padding: 0; 
+   position: absolute;
+    width: 1px; 
+}
+
 @media screen and (min-width: 320px){
 
 /* Page Elements */
@@ -317,7 +329,7 @@ p
 
 
 
-@media screen and (min-width: 1320px){
+@media screen and (min-width: 1320px) {
 
 
 
@@ -361,7 +373,7 @@ p
         font-size: 1rem;
         padding: 18px 50px;
         position: relative;
-        bottom: 50vh;
+        bottom: 44vh;
         left: 46.5vw;
         grid-area: grid2;
     }
