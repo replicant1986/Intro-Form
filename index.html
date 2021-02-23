@@ -22,13 +22,17 @@
         </button>
     </div>
     <div class="form-section">
-        <form onsubmit="return validateForm() ">
+        <form for="" onsubmit="return validateForm() ">
+            <label for="fname" class="hidden"></label>
             <input placeholder="First Name" type="text" id="fname" aria-labelledby="fname" name="fname"><br><br>
             <div class="response-fname" id="response-fname"></div>
+            <label for="lname" class="hidden"></label>
             <input placeholder="Last Name" type="text" id="lname" aria-labelledby="lname" name="lname"><br><br>
             <div class="response-lname" id="response-lname"></div>
+            <label for="email" class="hidden"></label>
             <input placeholder="Email Address" type="text" id="email" aria-labelledby="email" name="email"><br><br>
             <div class="response-email" id="response-email"></div>
+            <label for="password" class="hidden"></label>
             <input placeholder="Password" type="text" id="password" aria-labelledby="password" name="password"><br><br>
             <div class="response-password" id="response-password"></div>
             <input id="form-btn" class="form-btn" type="submit" value="CLAIM YOUR FREE TRIAL" style="border: none; color: white;">
