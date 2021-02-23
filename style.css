@@ -373,7 +373,7 @@ p
         font-size: 1rem;
         padding: 18px 50px;
         position: relative;
-        bottom: 50vh;
+        bottom: 44vh;
         left: 46.5vw;
         grid-area: grid2;
     }
@@ -448,7 +448,7 @@ p
         justify-content: center;
         text-align: left;
         align-items: center;
-        font-size: 3rem;
+        font-size: 3.6rem;
         line-height: 1.2;
         font-weight: 600;
         position: relative;
@@ -460,7 +460,7 @@ p
         color: white;
         text-align: left;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 1.4rem;
         width: 40vw;
         position: relative;
         left: 5.5vw;
